@@ -79,6 +79,7 @@ body{
 	color: #fefefe;
 	line-height: 1.9583; /*высоту на расстояние*/
 	width: 100%;
+	outline: none;
 }
 
 .form-label{
@@ -87,6 +88,8 @@ body{
 	top: 50px;
 	text-transform: uppercase;
 	color: #767676;
+	font-family: 'FuturaPT', Arial, sans-serif;
+	letter-spacing: 0.2em;
 }
 
 .form-bottom{
@@ -167,6 +170,12 @@ body{
 	width: 20px;
 }
 
-.text-decoration-right{
+.text-decoration-center span:nth-child(even){
+	width: 20px;
+	margin: 3px auto;
+}
 
+.text-decoration-right span:nth-child(even){
+	width: 20px;
+	margin-left: 13px;
 }
